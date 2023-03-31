@@ -1,6 +1,6 @@
-# Old School Dungeons and Dragons Plugin for Unreal Engine
+# Old School DnD Plugin for Unreal Engine
 
-Plugin specifically tailored for Old School Dungeons and Dragons (OSDD) games. This plugin provides a comprehensive suite of features that allow games to create and customize their own Uneal Engine characters using old school D&D rules.
+Plugin specifically tailored for Old School DnD (OSDD) games. This plugin provides a comprehensive suite of features that allow games to create and customize their own Uneal Engine characters using old school D&D rules.
 
 ## Features
 
@@ -16,3 +16,4 @@ Plugin specifically tailored for Old School Dungeons and Dragons (OSDD) games. T
     - Specialists
     - Strongholds
     - Structures
+    - WIP: Spells
