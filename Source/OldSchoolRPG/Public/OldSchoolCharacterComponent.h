@@ -9,7 +9,7 @@
 #include "Enum/EClasses.h"
 #include "Enum/EEquipmentSlot.h"
 #include "Enum/ERaces.h"
-#include "Libraries/OldSchoolRPGTables.h"
+#include "OldSchoolRPGTables.h"
 #include "Struct/FCharacterState.h"
 #include "Struct/FCoinTreasure.h"
 #include "OldSchoolCharacterComponent.generated.h"

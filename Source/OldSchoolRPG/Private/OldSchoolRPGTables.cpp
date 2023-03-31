@@ -1,7 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 
-#include "Libraries/OldSchoolRPGTables.h"
+#include "OldSchoolRPGTables.h"
 
 #include "IPropertyTable.h"
 #include "UObject/UObjectGlobals.h"
