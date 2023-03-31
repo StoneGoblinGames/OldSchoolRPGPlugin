@@ -2,11 +2,10 @@
 
 #include "CoreMinimal.h"
 #include "Enum/EClasses.h"
-#include "Enum/Spells/ESpellComponents.h"
 #include "FSpell.generated.h"
 
 USTRUCT(BlueprintType)
-struct FSpell
+struct FSpell : public FTableRowBase
 {
 	GENERATED_BODY();
 
@@ -14,24 +13,11 @@ struct FSpell
 	FName Name;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FText Description;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FString Target;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	FString AffectedAbility;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	bool RequiresConcentration = false;
+	uint8 Level;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	bool IsReversed = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TArray<TEnumAsByte<EClasses::Class>> Classes;
-
-	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	uint8 Level;
-	
+	TArray<TEnumAsByte<EClasses::Class>> Classes;	
 };

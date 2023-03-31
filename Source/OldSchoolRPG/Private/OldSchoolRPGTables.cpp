@@ -13,6 +13,7 @@
 #include "Struct/FEquipment.h"
 #include "Struct/FRaceProperties.h"
 #include "Struct/FWeaponStats.h"
+#include "Struct/Spells/FSpell.h"
 #include "UObject/ReflectedTypeAccessors.h"
 
 DEFINE_LOG_CATEGORY(LogOldSchoolRPGTables);
@@ -73,6 +74,37 @@ UDataTable* UOldSchoolRPGTables::GetClassProgressionDataTable(EClasses::Class Ch
 	LoadClassProgressionDataTable(CharacterClass);
 
 	return CharacterProgressionDataTable;
+}
+
+UDataTable* UOldSchoolRPGTables::GetClassSpellsDataTable(EClasses::Class CharacterClass)
+{
+	const FString SelectedClass = StaticEnum<EClasses::Class>()->GetNameStringByValue(CharacterClass);
+	FString Path = "/OldSchoolRPG/Content/Tables/CSV/Spells/" + SelectedClass + ".csv";
+	UClass* DataTableClass = UDataTable::StaticClass();
+	UDataTable* CharacterSpells = NewObject<UDataTable>(this, DataTableClass, FName(TEXT("CharacterSpells")));
+	CharacterSpells->RowStruct = FSpell::StaticStruct();
+	TArray<FString> CSVLines = GetCSVFile(Path);
+	for (int i = 1; i < CSVLines.Num(); i++)
+	{
+		FSpell Row;
+		FString aString = CSVLines[i];
+		TArray<FString> stringArray = {};
+		aString.ParseIntoArray(stringArray, TEXT(","), false);
+		if (stringArray.Num() == 0){continue;}
+		FString LineLabel = stringArray[0];
+		if ((LineLabel.Len() == 0)  || LineLabel.StartsWith("\";") || LineLabel.StartsWith(";"))
+		{
+			continue;	// Skip comments or lines with no label
+		}
+		Row.Name = *stringArray[1];
+		Row.Level = FCString::Atoi(*stringArray[2]);
+		Row.IsReversed = FCString::ToBool(*stringArray[3]);
+		Row.Classes.Add(CharacterClass);
+
+		CharacterSpells->AddRow(FName(*stringArray[0]), Row);
+	}
+
+	return CharacterSpells;
 }
 
 int32 UOldSchoolRPGTables::GetStrengthModifier(int32 BaseValue)

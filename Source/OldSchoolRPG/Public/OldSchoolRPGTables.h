@@ -44,6 +44,8 @@ public:
 	UDataTable* GetWeaponStats();
 	UFUNCTION(BlueprintCallable, Category="Initialization")
 	UDataTable* GetClassProgressionDataTable(EClasses::Class CharacterClass);
+	UFUNCTION(BlueprintCallable, Category="Initialization")
+	UDataTable* GetClassSpellsDataTable(EClasses::Class CharacterClass);
 	// attribute functions
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category="Attribute Modifiers")
 	int32 GetStrengthModifier(int32 BaseValue);
