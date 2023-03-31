@@ -1,0 +1,6 @@
+;Platinum;Gold;Electrum;Silver;Copper
+Platinum;1;0.2;0.1;0.02;0.002
+Gold;5;1;0.5;0.1;0.01
+Electrum;10;2;1;0.2;0.02
+Silver;50;10;5;1;0.1
+Copper;500;100;50;10;1

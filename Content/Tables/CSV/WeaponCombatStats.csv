@@ -1,0 +1,23 @@
+;Name;Damage;Qualities
+BattleAxe;Battle axe;1d8;Melee, Slow, Two-handed
+Club;Club;1d4;Blunt, Melee
+Crossbow;Crossbow;1d6;Missile (5’–80’ / 81’–160’ / 161’–240’), Reload, Slow,
+Dagger;Dagger;1d4;Melee, Missile (5’–10’ / 11’–20’ / 21’–30’)
+HandAxe;Hand axe;1d6;Melee, Missile (5’–10’ / 11’–20’ / 21’–30’)
+HolyWaterVial;Holy water vial;1d8;Missile (5’–10’ / 11’–30’ / 31’–50’), Splash weapon
+Javelin;Javelin;1d4;Missile (5’–30’ / 31’–60’ / 61’–90’)
+Lance;Lance;1d6;Charge, Melee
+LongBow;Long bow;1d6;Missile (5’–70’ / 71’–140’ / 141’–210’), Two-handed
+Mace;Mace;1d6;Blunt, Melee
+OilFlaskBurning;Oil flask, burning;1d8;Missile (5’–10’ / 11’–30’ / 31’–50’), Splash weapon
+PoleArm;Pole arm;1d10;Brace, Melee, Slow, Two-handed
+ShortBow;Short bow;1d6;Missile (5’–50’ / 51’–100’ / 101’–150’), Two-handed
+ShortSword;Short sword;1d6;Melee
+SilverDagger;Silver dagger;1d4;Melee, Missile (5’–10’ / 11’–20’ / 21’–30’)
+Sling;Sling;1d4;Blunt, Missile (5’–40’ / 41’–80’ / 81’–160’)
+Spear;Spear;1d6;Brace, Melee, Missile (5’–20’ / 21’–40’ / 41’–60’)
+Staff;Staff;1d4;Blunt, Melee, Slow, Two-handed
+Sword;Sword;1d8;Melee
+Torch;Torch;1d4;Melee
+TwoHandedSword;Two-handed sword;1d10;Melee, Slow, Two-handed
+WarHammer;War hammer;1d6;Blunt, Melee

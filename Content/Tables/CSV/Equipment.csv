@@ -1,0 +1,52 @@
+;FullName;Type;Cost;Description;Weight
+Backpack;Backpack;AdventuringGear;5;Has two straps and can be worn on the back, keeping the hands free. Holds up to 400 coins.;
+Crowbar;Crowbar;AdventuringGear;10;2–3’ long and made of solid iron. Can be used for forcing doors and other objects open.;
+Garlic;Garlic;AdventuringGear;5;;
+GrapplingHook;Grappling hook;AdventuringGear;25;Has 3 or 4 prongs. Can be used for anchoring a rope.;
+HammerSmall;Hammer (small);AdventuringGear;2;Can be used for construction or as a mallet with iron or wooden spikes.;
+HolySymbol;Holy symbol;AdventuringGear;25;A divine spell caster is required to own a holy symbol of their deity, often worn as a necklace. Each religion has its own holy symbol.;
+HolyWaterVial;Holy water (vial);AdventuringGear;25;Water that has been blessed by a holy person. It is used in some religious rituals and inflicts damage on undead monsters. Holy water does not retain its power if stored in any other container than the special vials it is blessed in.;
+IronSpikes12;Iron spikes (12);AdventuringGear;1;May be used for wedging doors open or shut, as an anchor to attach a rope to, and many other purposes.;
+Lantern;Lantern;AdventuringGear;10;Can be closed to hide the light. Burns one oil flask every four hours (24 turns). Casts light in a 30’ radius.;
+MirrorHandSizedSteel;Mirror (hand-sized, steel);AdventuringGear;5;Useful for looking around corners or for reflecting a gaze attack.;
+Oil1Flask;Oil (1 flask);AdventuringGear;2;A flask of oil fuels a lantern for four hours (24 turns). In addition to fuelling lanterns, oil can be used as a weapon:\n▶ Throwing: An oil flask may be lit on fire and thrown.\n▶ Pools: Oil that is poured on the ground and lit covers a diameter of 3 feet and burns for 1 turn, inflicting damage on any character or monster moving through the pool.\n▶ Immunity: Burning oil does not harm monsters that have a natural flame attack.;
+Pole10LongWooden;Pole (10' long, wooden);AdventuringGear;1;A 2” thick wooden pole useful for poking and prodding suspicious items in a dungeon.;
+RationsIron7Days;Rations (iron, 7 days);AdventuringGear;15;Dried and preserved food to be carried on long voyages when securing fresh food may be uncertain.;
+RationsStandad7Days;Rations (standard, 7 days);AdventuringGear;5;Fresh, unpreserved food.;
+Rope50;Rope (50');AdventuringGear;1;Can hold the weight of approximately three human-sized beings.;
+SackLarge;Sack (large);AdventuringGear;2;Can hold up to 600 coins.;
+SackSmall;Sack (small);AdventuringGear;1;Can hold up to 200 coins.;
+Stakes3AndMallet;Stakes (3) and mallet;AdventuringGear;3;A wooden mallet and three 18” long stakes. Valuable when confronting vampires.;
+ThievesTools;Thieves' tools;AdventuringGear;25;This kit contains all of the tools needed to pick locks.;
+TinderBoxFlintAndSteel;Tinder box (flint and steel);AdventuringGear;3;Used to light fires, including torches. Using a tinder box takes one round. There is a 2-in-6 chance of success per round.;
+Torches6;Torches (6);AdventuringGear;1;A torch burns for 1 hour (6 turns), clearly illuminating a 30’ radius. Torches may also be used in combat ;
+Waterskin;Waterskin;AdventuringGear;1;This container, made of hide, will hold 2 pints (1 quart) of fluid.;
+Wine2pints;Wine (2 pints);AdventuringGear;1;;
+Wolfsbane1Bunch;Wolfsbane (1 bunch);AdventuringGear;10;This herb can be used to repel lycanthropes. The creature must be hit with the herb in melee combat.;
+BattleAxe;Battle axe;Weapon;7;;50
+Club;Club;Weapon;3;;50
+Crossbow;Crossbow;Weapon;30;;50
+Dagger;Dagger;Weapon;3;;10
+HandAxe;Hand axe;Weapon;4;;30
+Javelin;Javelin;Weapon;1;;20
+Lance;Lance;Weapon;5;;120
+LongBow;Long bow;Weapon;40;;30
+Mace;Mace;Weapon;5;;30
+PoleArm;Pole arm;Weapon;7;;150
+ShortBow;Short bow;Weapon;25;;30
+ShortSword;Shor sword;Weapon;7;;30
+SilverDagger;Silver dagger;Weapon;30;;10
+Sling;Sling;Weapon;2;;20
+Spear;Spear;Weapon;3;;30
+Staff;Staff;Weapon;2;;40
+Sword;Sword;Weapon;10;;60
+TwoHandedSword;Two-handed sword;Weapon;15;;150
+WarHammer;War hammer;Weapon;5;;30
+Leater;Leater armour;Armour;20;;200
+Chainmail;Chainmail armour;Armour;40;;400
+PlateMail;Plate mail;Armour;60;;500
+Shield;Shield;Armour;10;;100
+ArrowsQuiver20;Arrows (quiver of 20);Ammunition;5;;
+CrossbowBolts30;Crossbow bolts (case of 30);Ammunition;10;;
+SilverTippedArrow1;Silver tipped arrow (1);Ammunition;5;;
+SlingStones;Sling stones;Ammunition;0;;
