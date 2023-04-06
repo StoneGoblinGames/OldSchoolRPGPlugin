@@ -17,7 +17,7 @@
 
 DECLARE_LOG_CATEGORY_EXTERN(LogOldSchoolRPGCharacterComponent, Log, All);
 
-UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent), Blueprintable)
+UCLASS(ClassGroup=(Custom))
 class OLDSCHOOLRPG_API UBaseCharacterActorComponent : public UActorComponent
 {
 	GENERATED_BODY()
