@@ -22,7 +22,7 @@ struct FClassProperties : public FTableRowBase
 	FString HitDice = "1d4";
 
 	UPROPERTY(BlueprintReadOnly)
-	int32 MaxLevel = 14;
+	uint8 MaxLevel {14};
 
 	UPROPERTY(BlueprintReadOnly)
 	FString Armour;
@@ -37,22 +37,22 @@ struct FClassProperties : public FTableRowBase
 	FString Description;
 
 	UPROPERTY(BlueprintReadOnly)
-	int32 SaveD = 0;
+	uint8 SaveD {0};
 
 	UPROPERTY(BlueprintReadOnly)
-	int32 SaveW = 0;
+	uint8 SaveW {0};
 
 	UPROPERTY(BlueprintReadOnly)
-	int32 SaveP = 0;
+	uint8 SaveP {0};
 
 	UPROPERTY(BlueprintReadOnly)
-	int32 SaveB = 0;
+	uint8 SaveB {0};
 
 	UPROPERTY(BlueprintReadOnly)
-	int32 SaveS = 0;
+	uint8 SaveS {0};
 
 	UPROPERTY(BlueprintReadOnly)
-	int32 THAC0 = 19;	
+	uint8 THAC0 {19};	
 
 	UPROPERTY(BlueprintReadOnly)
 	FString ClassSkills;

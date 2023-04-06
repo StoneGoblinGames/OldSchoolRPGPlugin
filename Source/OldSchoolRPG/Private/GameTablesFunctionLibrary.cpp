@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+
 
 
 #include "GameTablesFunctionLibrary.h"
@@ -94,33 +94,33 @@ UDataTable* UGameTablesFunctionLibrary::GetClassSpellsDataTable(EClasses::Class 
 	return CharacterSpells;
 }
 
-int32 UGameTablesFunctionLibrary::GetStrengthModifier(int32 BaseValue)
+uint8 UGameTablesFunctionLibrary::GetStrengthModifier(uint8 BaseValue)
 {
 	return GetDefaultAttributeModifier(BaseValue);
 }
 
-int32 UGameTablesFunctionLibrary::GetDexterityModifier(int32 BaseValue)
+uint8 UGameTablesFunctionLibrary::GetDexterityModifier(uint8 BaseValue)
 {
 	return GetDefaultAttributeModifier(BaseValue);
 }
 
-int32 UGameTablesFunctionLibrary::GetConstitutionModifier(int32 BaseValue)
+uint8 UGameTablesFunctionLibrary::GetConstitutionModifier(uint8 BaseValue)
 {
 	
 	return GetDefaultAttributeModifier(BaseValue);
 }
 
-int32 UGameTablesFunctionLibrary::GetIntelligenceModifier(int32 BaseValue)
+uint8 UGameTablesFunctionLibrary::GetIntelligenceModifier(uint8 BaseValue)
 {
 	return GetDefaultAttributeModifier(BaseValue);
 }
 
-int32 UGameTablesFunctionLibrary::GetWisdomModifier(int32 BaseValue)
+uint8 UGameTablesFunctionLibrary::GetWisdomModifier(uint8 BaseValue)
 {
 	return GetDefaultAttributeModifier(BaseValue);
 }
 
-int32 UGameTablesFunctionLibrary::GetCharismaModifier(int32 BaseValue)
+uint8 UGameTablesFunctionLibrary::GetCharismaModifier(uint8 BaseValue)
 {
 	return GetDefaultAttributeModifier(BaseValue);
 }
@@ -188,7 +188,7 @@ uint8 UGameTablesFunctionLibrary::GetAttributeRange(uint8 BaseAttributeValue)
 	return 6;
 }
 
-int32 UGameTablesFunctionLibrary::GetDefaultAttributeModifier(int32 BaseValue)
+uint8 UGameTablesFunctionLibrary::GetDefaultAttributeModifier(uint8 BaseValue)
 {
 	if (BaseValue <= 3)
 	{
@@ -358,7 +358,7 @@ TArray<TEnumAsByte<ECharacterStates::State>> UGameTablesFunctionLibrary::GetItem
 	return GrantedStates;
 }
 
-int32 UGameTablesFunctionLibrary::InitiativeModifier(int32 BaseValue)
+uint8 UGameTablesFunctionLibrary::InitiativeModifier(uint8 BaseValue)
 {
 	return BaseModifiers[GetAttributeRange(BaseValue)];
 }

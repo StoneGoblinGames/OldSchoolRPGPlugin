@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+
 
 #pragma once
 
@@ -17,7 +17,7 @@
 
 DECLARE_LOG_CATEGORY_EXTERN(LogOldSchoolRPGCharacterComponent, Log, All);
 
-UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent))
+UCLASS(ClassGroup=(Custom), meta=(BlueprintSpawnableComponent), Blueprintable)
 class OLDSCHOOLRPG_API UBaseCharacterActorComponent : public UActorComponent
 {
 	GENERATED_BODY()

@@ -1,4 +1,4 @@
-// Fill out your copyright notice in the Description page of Project Settings.
+
 
 #pragma once
 
@@ -34,7 +34,7 @@ public:
 	UGameTablesFunctionLibrary();
 	// some constants
 	UPROPERTY(BlueprintReadOnly, Category="Constants")
-	int32 BaseArmourClass = 9;
+	uint8 BaseArmourClass {9};
 	UPROPERTY(BlueprintReadOnly, Category="Constants")
 	int32 DefaultMovementRate = 120;
 	UFUNCTION(BlueprintCallable, Category="Constants")
@@ -52,19 +52,19 @@ public:
 	UDataTable* GetClassSpellsDataTable(EClasses::Class CharacterClass);
 	// attribute functions
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category="Attribute Modifiers")
-	int32 GetStrengthModifier(int32 BaseValue);
+	static uint8 GetStrengthModifier(uint8 BaseValue);
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category="Attribute Modifiers")
-	int32 GetDexterityModifier(int32 BaseValue);
+	static uint8 GetDexterityModifier(uint8 BaseValue);
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category="Attribute Modifiers")
-	static int32 GetConstitutionModifier(int32 BaseValue);
+	static uint8 GetConstitutionModifier(uint8 BaseValue);
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category="Attribute Modifiers")
-	int32 GetIntelligenceModifier(int32 BaseValue);
+	static uint8 GetIntelligenceModifier(uint8 BaseValue);
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category="Attribute Modifiers")
-	int32 GetWisdomModifier(int32 BaseValue);
+	static uint8 GetWisdomModifier(uint8 BaseValue);
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category="Attribute Modifiers")
-	int32 GetCharismaModifier(int32 BaseValue);
+	static uint8 GetCharismaModifier(uint8 BaseValue);
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category="Attribute Modifiers")
-	int32 InitiativeModifier(int32 BaseValue);
+	uint8 InitiativeModifier(uint8 BaseValue);
 	UFUNCTION(BlueprintCallable, BlueprintPure, Category="Attribute Modifiers")
 	static int32 GetAttributeExperienceModifier(int32 AbilityValue);
 	UFUNCTION(BlueprintPure, BlueprintPure, Category="Attribute Modifiers")
@@ -99,7 +99,7 @@ protected:
 	UPROPERTY()
 	UDataTable* CharacterProgressionDataTable;;
 	static uint8 GetAttributeRange(uint8 BaseAttributeValue); 
-	static int32 GetDefaultAttributeModifier(int32 BaseValue);
+	static uint8 GetDefaultAttributeModifier(uint8 BaseValue);
 	static TArray<FString> GetCSVFile(FString Path);
 	static EClasses::Class GetClassFromFString(FString DesiredClass);
 	static ERaces::Race GetRaceFromString(FString DesiredRace);

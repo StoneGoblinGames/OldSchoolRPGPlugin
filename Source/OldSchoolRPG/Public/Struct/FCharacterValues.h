@@ -37,55 +37,55 @@ struct FCharacterValues
 	FString PrimeRequisite;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 AttackRoll = 19;
+	uint8 AttackRoll {19};
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 DeathSave = 0;
+	uint8 DeathSave {0};
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 WandSave = 0;
+	uint8 WandSave {0};
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 ParalysisSave = 0;
+	uint8 ParalysisSave {0};
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 BreathSave = 0;
+	uint8 BreathSave {0};
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 SpellSave = 0;
+	uint8 SpellSave {0};
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 Level = 1;
+	uint8 Level {1};
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 Strength = 8;
+	uint8 Strength {8};
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 Dexterity = 8;
+	uint8 Dexterity {8};
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 Constitution = 8;
+	uint8 Constitution {8};
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 Intelligence = 8;
+	uint8 Intelligence {8};
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 Wisdom = 8;
+	uint8 Wisdom {8};
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 Charisma = 8;
+	uint8 Charisma {8};
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 ArmorClass = 9;
+	uint8 ArmorClass {9};
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 Initiative = 0;
+	uint8 Initiative {0};
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 Speed = 120;
+	int32 Speed {120};
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 HitPoints = 1;
+	int32 HitPoints {1};
 	
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	FString HitDice = "1d4";

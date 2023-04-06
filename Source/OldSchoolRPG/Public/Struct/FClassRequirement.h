@@ -15,5 +15,5 @@ struct FClassRequirement
 	FString Property;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	int32 Value = 0;
+	uint8 Value {0};
 };
