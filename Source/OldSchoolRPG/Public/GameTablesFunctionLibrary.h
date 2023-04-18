@@ -19,6 +19,7 @@
 #include "Struct/FClassLevel.h"
 #include "Struct/FWeaponStats.h"
 #include "Struct/FCoinConversion.h"
+#include "Struct/DataTables/CsvDataTableLoader.h"
 #include "GameTablesFunctionLibrary.generated.h"
 
 DECLARE_LOG_CATEGORY_EXTERN(LogOldSchoolGameTablesFunctionLibrary, Log, All);
@@ -109,5 +110,5 @@ protected:
 	inline static TArray<uint8> MaxRetainers {1, 2, 3, 4, 5, 6, 7};
 	inline static TArray<int8> BaseModifiers {-3, -2, -1, 0, 1, 2, 3};	
 	inline static TArray<int8> NpcReactions {-2, -1, -1, 0, 1, 1, 2};
-	
+	CsvDataTableLoader CsvLoader;
 };

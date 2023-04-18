@@ -7,6 +7,7 @@ DEFINE_LOG_CATEGORY(LogOldSchoolGameTablesFunctionLibrary);
 
 UGameTablesFunctionLibrary::UGameTablesFunctionLibrary()
 {
+	CsvLoader = CsvDataTableLoader();
 	LoadRacePropertiesDataTable();
 	LoadClassPropertiesDataTable();
 	LoadCoinConversionDataTable();
@@ -127,11 +128,11 @@ uint8 UGameTablesFunctionLibrary::GetCharismaModifier(uint8 BaseValue)
 
 bool UGameTablesFunctionLibrary::LoadRacePropertiesDataTable()
 {
-	FString Path = "/OldSchoolRPG/Content/Tables/CSV/RaceAttributes.csv";
+	FCsvGameTable RaceCsvGameTable = FCsvGameTable("RaceAttributes.csv");
 	UClass* DataTableClass = UDataTable::StaticClass();
 	RacePropertiesDataTable = NewObject<UDataTable>(this, DataTableClass, FName(TEXT("RacePropertiesDataTable")));
 	RacePropertiesDataTable->RowStruct = FRaceProperties::StaticStruct();
-	TArray<FString> CSVLines = GetCSVFile(Path);
+	TArray<FString> CSVLines = CsvLoader.GetCSVFileContent(RaceCsvGameTable);
 	FRaceProperties Row;
 	for (int i = 1; i < CSVLines.Num(); i++)
 	{
