@@ -466,6 +466,7 @@ bool UGameTablesFunctionLibrary::LoadEquipmentDataTable()
 		Row.Cost = FCString::Atod(*stringArray[3]);
 		Row.Description = FText::FromString(*stringArray[4]);
 		Row.Weight = FCString::Atoi(*stringArray[5]);
+		Row.IsWearable = Row.Type == EEquipmentType::Armour || Row.Type == EEquipmentType::Weapon;
 			
 		Row.GrantStatesWhenEquipped = GetItemCharacterStates(Row);
 		EquipmentDataTable->AddRow(FName(*stringArray[0]), Row);

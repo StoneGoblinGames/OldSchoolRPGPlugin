@@ -30,4 +30,10 @@ struct FEquipment : public FTableRowBase
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
 	TArray<TEnumAsByte<ECharacterStates::State>> GrantStatesWhenEquipped;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool IsMagic = false;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	bool IsWearable = false;
 };
