@@ -77,7 +77,7 @@ UDataTable* UGameTablesFunctionLibrary::GetClassSpellsDataTable(EClasses::Class 
 		FSpell Row;
 		FString aString = CSVLines[i];
 		TArray<FString> stringArray = {};
-		aString.ParseIntoArray(stringArray, TEXT(","), false);
+		aString.ParseIntoArray(stringArray, TEXT(";"), false);
 		if (stringArray.Num() == 0){continue;}
 		FString LineLabel = stringArray[0];
 		if ((LineLabel.Len() == 0)  || LineLabel.StartsWith("\";") || LineLabel.StartsWith(";"))
@@ -88,6 +88,7 @@ UDataTable* UGameTablesFunctionLibrary::GetClassSpellsDataTable(EClasses::Class 
 		Row.Level = FCString::Atoi(*stringArray[2]);
 		Row.IsReversed = FCString::ToBool(*stringArray[3]);
 		Row.Classes.Add(CharacterClass);
+		Row.Description = FText::FromString(*stringArray[5]);
 
 		CharacterSpells->AddRow(FName(*stringArray[0]), Row);
 	}

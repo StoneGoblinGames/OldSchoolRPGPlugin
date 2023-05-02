@@ -1,77 +1,77 @@
-,Name,Level,IsReversed,Class,Description
-CharmPerson,Charm Person,1,0,Wizard,This charm makes a humanoid creature regard you as its trusted friend and ally (treat the target’s attitude as friendly). If the creature is currently being threatened or attacked by you or your allies, however, it receives a +5 bonus on its saving throw.
-DetectMagic,Detect Magic,1,0,Wizard,You detect magical auras. The amount of information revealed depends on how long you study a particular area or subject. 
-FloatingDisc,Floating Disc,1,0,Wizard,You create a slightly concave, circular plane of force that follows you about and carries loads for you. The disk is 3 feet in diameter and 1 inch deep at its center. It can hold 100 pounds of weight per caster level. (If used to transport a liquid, its capacity is 2 gallons.) The disk floats approximately 3 feet above the ground at all times and remains level. It floats along horizontally within spell range and will accompany you at a rate of no more than your normal speed each round. If not otherwise directed, it maintains a constant interval of 5 feet between itself and you. The disk winks out of existence when the spell duration expires. The disk also winks out if you move beyond range or try to take the disk more than 3 feet away from the surface beneath it. When the disk winks out, whatever it was supporting falls to the surface beneath it. 
-HoldPortal,Hold Portal,1,0,Wizard,This spell magically holds shut a door, gate, window, or shutter of wood, metal, or stone. The magic affects the portal just as if it were securely closed and normally locked. A knock spell or a successful dispel magic spell can negate a hold portal spell. 
-Light,Light,1,0,Wizard,This spell causes an object to glow like a torch, shedding bright light in a 20-foot radius (and dim light for an additional 20 feet) from the point you touch. The effect is immobile, but it can be cast on a movable object. Light taken into an area of magical darkness does not function. 
-Darkness,Darkness,1,1,Wizard,This spell causes an object to radiate shadowy illumination out to a 20-foot radius. All creatures in the area gain concealment (20% miss chance). Even creatures that can normally see in such conditions (such as with darkvision or low-light vision) have the miss chance in an area shrouded in magical darkness. 
-MagicMissile,Magic Missile,1,0,Wizard,A missile of magical energy darts forth from your fingertip and strikes its target, dealing 1d4+1 points of force damage. 
-ProtectionFromEvil,Protection from Evil,1,0,Wizard,This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures. It creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has three major effects. 
-ComprehendLanguages,Read Languages,1,0,Wizard,You can understand the spoken words of creatures or read otherwise incomprehensible written messages. In either case, you must touch the creature or the writing. The ability to read does not necessarily impart insight into the material, merely its literal meaning. The spell enables you to understand or read an unknown language, not speak or write it. 
-ReadMagic,Read Magic,1,0,Wizard,By means of read magic, you can decipher magical inscriptions on objects—books, scrolls, weapons, and the like—that would otherwise be unintelligible. This deciphering does not normally invoke the magic contained in the writing, although it may do so in the case of a cursed scroll. Furthermore, once the spell is cast and you have read the magical inscription, you are thereafter able to read that particular writing without recourse to the use of read magic. You can read at the rate of one page (250 words) per minute. The spell allows you to identify a glyph of warding with a DC 13 Spellcraft check, a greater glyph of warding with a DC 16 Spellcraft check, or any symbol spell with a Spellcraft check (DC 10 + spell level). 
-Shield,Shield,1,0,Wizard,Shield creates an invisible, tower shield-sized mobile disk of force that hovers in front of you. It negates magic missile attacks directed at you. The disk also provides a +4 shield bonus to AC. This bonus applies against incorporeal touch attacks, since it is a force effect. The shield has no armor check penalty or arcane spell failure chance. Unlike with a normal tower shield, you can’t use the shield spell for cover. 
-Sleep,Sleep,1,0,Wizard,A sleep spell causes a magical slumber to come upon 4 Hit Dice of creatures. Creatures with the fewest HD are affected first. 
-Ventriloquism,Ventriloquism,1,0,Wizard,You can make your voice (or any sound that you can normally make vocally) seem to issue from someplace else. You can speak in any language you know. With respect to such voices and sounds, anyone who hears the sound and rolls a successful save recognizes it as illusory (but still hears it). 
-ContinualLight,Continual Light,2,0,Wizard,
-ContinualDarkness,Continual Darkness,2,1,Wizard,
-DetectEvil,Detect Evil,2,0,Wizard,
-DetectInvisible,Detect Invisible,2,0,Wizard,
-ESP,ESP,2,0,Wizard,
-Invisibility,Invisibility,2,0,Wizard,
-Knock,Knock,2,0,Wizard,
-Levitate,Levitate,2,0,Wizard,
-LocateObject,Locate Object,2,0,Wizard,
-MirrorImage,Mirror Image,2,0,Wizard,
-PhantasmalForce,Phantasmal Force,2,0,Wizard,
-Web,Web,2,0,Wizard,
-WizardLock,Wizard Lock,2,0,Wizard,
-Clairvoyance,Clairvoyance,3,0,Wizard,
-DispelMagic,Dispel Magic,3,0,Wizard,
-Fireball,Fire Ball,3,0,Wizard,
-Fly,Fly,3,0,Wizard,
-Haste,Haste,3,0,Wizard,
-HoldPerson,Hold Person,3,0,Wizard,
-Infravision,Infravision,3,0,Wizard,
-Invisibility10Radius,Invisibility 10' Radius,3,0,Wizard,
-ProtectionFromNormalMissiles,Protection from Normal Missiles,3,0,Wizard,
-WaterBreathing,Water Breathing,3,0,Wizard,
-CharmMonster,Charm Monster,4,0,Wizard,
-Confusion,Confusion,4,0,Wizard,
-DimensionDoor,Dimension Door,4,0,Wizard,
-GrowthOfPlants,Growth of Plants,4,0,Wizard,
-HallucinatoryTerrain,Hallucinatory Terrain,4,0,Wizard,
-Massmorph,Massmorph,4,0,Wizard,
-PolymorphOthers,Polymorph Others,4,0,Wizard,
-PolymorphSelf,Polymorph Self,4,0,Wizard,
-RemoveCurse,Remove Curse,4,0,Wizard,
-Curse,Curse,4,1,Wizard,
-WallOfFire,Wall of Fire,4,0,Wizard,
-WallOfIce,Wall of Ice,4,0,Wizard,
-WizardEye,Wizard Eye,4,0,Wizard,
-AnimateDead,Animate Dead,5,0,Wizard,
-Cloudkill,Cloudkill,5,0,Wizard,
-ConjureElemental,Conjure Elemental,5,0,Wizard,
-ContactHighPlane,Contact High Plane,5,0,Wizard,
-Feeblemind,Feeblemind,5,0,Wizard,
-HoldMonster,Hold Monster,5,0,Wizard,
-MagicJar,Magic Jar,5,0,Wizard,
-PassWall,Pass-Wall,5,0,Wizard,
-Telekinesis,Telekinesis,5,0,Wizard,
-Teleport,Teleport,5,0,Wizard,
-TransmuteRockToMud,Transmute Rock to Mud,5,0,Wizard,
-TransmuteMudToRock,Transmute Mud to Rock,5,1,Wizard,
-WallOfStone,Wall of Stone,5,0,Wizard,
-AntiMagicShell,Anti-Magic Shell,6,0,Wizard,
-ControlWeather,Control Weather,6,0,Wizard,
-DeathSpell,Death Spell,6,0,Wizard,
-Disintegrate,Disintegrate,6,0,Wizard,
-Geas,Geas,6,0,Wizard,
-RemoveGeas,Remove Geas,6,1,Wizard,
-InvisibleStalker,Invisible Stalker,6,0,Wizard,
-LowerWater,Lower Water,6,0,Wizard,
-MoveEarth,Move Earth,6,0,Wizard,
-PartWater,Part Water,6,0,Wizard,
-ProjectedImage,Projected Image,6,0,Wizard,
-Reincarnation,Reincarnation,6,0,Wizard,
-StoneToFlesh,Stone to Flesh,6,0,Wizard,
-FleshToStone,Flesh to Stone,6,1,Wizard,
+;Name;Level;IsReversed;Class;Description
+CharmPerson;Charm Person;1;0;Wizard;This charm makes a humanoid creature regard you as its trusted friend and ally (treat the target's attitude as friendly). If the creature is currently being threatened or attacked by you or your allies, however, it receives a +5 bonus on its saving throw.
+DetectMagic;Detect Magic;1;0;Wizard;You detect magical auras. The amount of information revealed depends on how long you study a particular area or subject. 
+FloatingDisc;Floating Disc;1;0;Wizard;You create a slightly concave, circular plane of force that follows you about and carries loads for you. The disk is 3 feet in diameter and 1 inch deep at its center. It can hold 100 pounds of weight per caster level. 
+HoldPortal;Hold Portal;1;0;Wizard;This spell magically holds shut a door, gate, window, or shutter of wood, metal, or stone. The magic affects the portal just as if it were securely closed and normally locked. A knock spell or a successful dispel magic spell can negate a hold portal spell. 
+Light;Light;1;0;Wizard;This spell causes an object to glow like a torch, shedding bright light in a 20-foot radius (and dim light for an additional 20 feet) from the point you touch. The effect is immobile, but it can be cast on a movable object. Light taken into an area of magical darkness does not function. 
+Darkness;Darkness;1;1;Wizard;This spell causes an object to radiate shadowy illumination out to a 20-foot radius. All creatures in the area gain concealment (20% miss chance). Even creatures that can normally see in such conditions (such as with darkvision or low-light vision) have the miss chance in an area shrouded in magical darkness. 
+MagicMissile;Magic Missile;1;0;Wizard;A missile of magical energy darts forth from your fingertip and strikes its target, dealing 1d4+1 points of force damage. 
+ProtectionFromEvil;Protection from Evil;1;0;Wizard;This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures. It creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has three major effects. 
+ComprehendLanguages;Read Languages;1;0;Wizard;You can understand the spoken words of creatures or read otherwise incomprehensible written messages. In either case, you must touch the creature or the writing. The ability to read does not necessarily impart insight into the material, merely its literal meaning. The spell enables you to understand or read an unknown language, not speak or write it. 
+ReadMagic;Read Magic;1;0;Wizard;By means of read magic, you can decipher magical inscriptions on objects—books, scrolls, weapons, and the like—that would otherwise be unintelligible. 
+Shield;Shield;1;0;Wizard;Shield creates an invisible, tower shield-sized mobile disk of force that hovers in front of you. It negates magic missile attacks directed at you. The disk also provides a +4 shield bonus to AC. This bonus applies against incorporeal touch attacks, since it is a force effect. The shield has no armor check penalty or arcane spell failure chance. Unlike with a normal tower shield, you can't use the shield spell for cover. 
+Sleep;Sleep;1;0;Wizard;A sleep spell causes a magical slumber to come upon 4 Hit Dice of creatures. Creatures with the fewest HD are affected first. 
+Ventriloquism;Ventriloquism;1;0;Wizard;You can make your voice (or any sound that you can normally make vocally) seem to issue from someplace else. You can speak in any language you know. With respect to such voices and sounds, anyone who hears the sound and rolls a successful save recognizes it as illusory (but still hears it). 
+ContinualLight;Continual Light;2;0;Wizard;
+ContinualDarkness;Continual Darkness;2;1;Wizard;
+DetectEvil;Detect Evil;2;0;Wizard;
+DetectInvisible;Detect Invisible;2;0;Wizard;
+ESP;ESP;2;0;Wizard;
+Invisibility;Invisibility;2;0;Wizard;
+Knock;Knock;2;0;Wizard;
+Levitate;Levitate;2;0;Wizard;
+LocateObject;Locate Object;2;0;Wizard;
+MirrorImage;Mirror Image;2;0;Wizard;
+PhantasmalForce;Phantasmal Force;2;0;Wizard;
+Web;Web;2;0;Wizard;
+WizardLock;Wizard Lock;2;0;Wizard;
+Clairvoyance;Clairvoyance;3;0;Wizard;
+DispelMagic;Dispel Magic;3;0;Wizard;
+Fireball;Fire Ball;3;0;Wizard;
+Fly;Fly;3;0;Wizard;
+Haste;Haste;3;0;Wizard;
+HoldPerson;Hold Person;3;0;Wizard;
+Infravision;Infravision;3;0;Wizard;
+Invisibility10Radius;Invisibility 10' Radius;3;0;Wizard;
+ProtectionFromNormalMissiles;Protection from Normal Missiles;3;0;Wizard;
+WaterBreathing;Water Breathing;3;0;Wizard;
+CharmMonster;Charm Monster;4;0;Wizard;
+Confusion;Confusion;4;0;Wizard;
+DimensionDoor;Dimension Door;4;0;Wizard;
+GrowthOfPlants;Growth of Plants;4;0;Wizard;
+HallucinatoryTerrain;Hallucinatory Terrain;4;0;Wizard;
+Massmorph;Massmorph;4;0;Wizard;
+PolymorphOthers;Polymorph Others;4;0;Wizard;
+PolymorphSelf;Polymorph Self;4;0;Wizard;
+RemoveCurse;Remove Curse;4;0;Wizard;
+Curse;Curse;4;1;Wizard;
+WallOfFire;Wall of Fire;4;0;Wizard;
+WallOfIce;Wall of Ice;4;0;Wizard;
+WizardEye;Wizard Eye;4;0;Wizard;
+AnimateDead;Animate Dead;5;0;Wizard;
+Cloudkill;Cloudkill;5;0;Wizard;
+ConjureElemental;Conjure Elemental;5;0;Wizard;
+ContactHighPlane;Contact High Plane;5;0;Wizard;
+Feeblemind;Feeblemind;5;0;Wizard;
+HoldMonster;Hold Monster;5;0;Wizard;
+MagicJar;Magic Jar;5;0;Wizard;
+PassWall;Pass-Wall;5;0;Wizard;
+Telekinesis;Telekinesis;5;0;Wizard;
+Teleport;Teleport;5;0;Wizard;
+TransmuteRockToMud;Transmute Rock to Mud;5;0;Wizard;
+TransmuteMudToRock;Transmute Mud to Rock;5;1;Wizard;
+WallOfStone;Wall of Stone;5;0;Wizard;
+AntiMagicShell;Anti-Magic Shell;6;0;Wizard;
+ControlWeather;Control Weather;6;0;Wizard;
+DeathSpell;Death Spell;6;0;Wizard;
+Disintegrate;Disintegrate;6;0;Wizard;
+Geas;Geas;6;0;Wizard;
+RemoveGeas;Remove Geas;6;1;Wizard;
+InvisibleStalker;Invisible Stalker;6;0;Wizard;
+LowerWater;Lower Water;6;0;Wizard;
+MoveEarth;Move Earth;6;0;Wizard;
+PartWater;Part Water;6;0;Wizard;
+ProjectedImage;Projected Image;6;0;Wizard;
+Reincarnation;Reincarnation;6;0;Wizard;
+StoneToFlesh;Stone to Flesh;6;0;Wizard;
+FleshToStone;Flesh to Stone;6;1;Wizard;

@@ -1,45 +1,45 @@
-,Name,Level,IsReversed,Class,Description
-CureLightWounds,Cure Light Wounds,1,0,Cleric,When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage +1 point per caster level (maximum +5). 
-CauseLightWounds,Cause Light Wounds,1,1,Cleric,When laying your hand upon a creature, you channel negative energy that deals 1d8 points of damage +1 point per caster level (maximum +5). 
-DetectEvil,Detect Evil,1,0,Cleric,You can sense the presence of evil. The amount of information revealed depends on how long you study a particular area or subject. 
-DetectMagic,Detect Magic,1,0,Cleric,You detect magical auras. The amount of information revealed depends on how long you study a particular area or subject. 
-Light,Light,1,0,Cleric,This spell causes an object to glow like a torch, shedding bright light in a 20-foot radius (and dim light for an additional 20 feet) from the point you touch. The effect is immobile, but it can be cast on a movable object. Light taken into an area of magical darkness does not function. 
-Darkness,Darkness,1,1,Cleric,This spell causes an object to radiate shadowy illumination out to a 20-foot radius. All creatures in the area gain concealment (20% miss chance). Even creatures that can normally see in such conditions (such as with darkvision or low-light vision) have the miss chance in an area shrouded in magical darkness. 
-ProtectionFromEvil,Protection from Evil,1,0,Cleric,This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures. It creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has three major effects. 
-PurifyFoodAndWater,Purify Food and Water,1,0,Cleric,This spell makes spoiled, rotten, poisonous, or otherwise contaminated food and water pure and suitable for eating and drinking. This spell does not prevent subsequent natural decay or spoilage. Unholy water and similar food and drink of significance is spoiled by purify food and drink, but the spell has no effect on creatures of any type nor upon magic potions. 
-RemoveFear,Remove Fear,1,0,Cleric,You instill courage in the subject, granting it a +4 morale bonus against fear effects for 10 minutes. If the subject is under the influence of a fear effect when receiving the spell, that effect is suppressed for the duration of the spell. 
-CauseFear,Cause Fear,1,1,Cleric,The affected creature becomes frightened. If the subject succeeds on a Will save, it is shaken for 1 round. Creatures with 6 or more Hit Dice are immune to this effect. 
-Resistance,Resistance,1,0,Cleric,You imbue the subject with magical energy that protects it from harm, granting it a +1 resistance bonus on saves. 
-Bless,Bless,2,0,Cleric,
-Blight,Blight,2,1,Cleric,
-FindTraps,FindTraps,2,0,Cleric,
-HoldPerson,Hold Person,2,0,Cleric,
-KnowAlignment,Know Alignment,2,0,Cleric,
-ResistFire,Resist Fire,2,0,Cleric,
-Silence15ftRadius,Silence 15' Radius,2,0,Cleric,
-SnakeCharm,Snake Charm,2,0,Cleric,
-SpeakWithAnimals,Speak with Animals,2,0,Cleric,
-ContinualLight,Continual Light,3,0,Cleric,
-ContinualDarkness,Continual Darkness,3,1,Cleric,
-CureDisease,Cure Disease,3,0,Cleric,
-CauseDisease,Cause Disease,3,1,Cleric,
-GrowthOfAnimal,Growth of Animal,3,0,Cleric,
-LocateObject,Locate Object,3,0,Cleric,
-RemoveCurse,Remove Curse,3,0,Cleric,
-Curse,Curse,3,1,Cleric,
-Striking,Striking,3,0,Cleric, 
-CreateWater,Create Water,4,0,Cleric,
-CureSeriousWounds,Cure Serious Wounds,4,0,Cleric,
-CauseSeriousWounds,Cause Serious Wounds,4,1,Cleric,
-NeutralizePoison,Neutralize Poison,4,0,Cleric,
-ProtectionFromEvil10Radius,Protection from Evil 10’ Radius,4,0,Cleric,
-SpeakWithPlants,Speak with Plants,4,0,Cleric,
-SticksToSnakes,Sticks to Snakes,4,0,Cleric,
-Commune,Commune,5,0,Cleric,
-CreateFood,Create Food,5,0,Cleric,
-DispelEvil,Dispel Evil,5,0,Cleric,
-InsectPlague,Insect Plague,5,0,Cleric,
-Quest,Quest,5,0,Cleric,
-RemoveQuest,RemoveQuest,5,1,Cleric,
-RaiseDead,Raise Dead,5,0,Cleric,
-FingerOfDeath,Finger of Death,5,1,Cleric,
+;Name;Level;IsReversed;Class;Description
+CureLightWounds;Cure Light Wounds;1;0;Cleric;When laying your hand upon a living creature, you channel positive energy that cures 1d8 points of damage +1 point per caster level (maximum +5). 
+CauseLightWounds;Cause Light Wounds;1;1;Cleric;When laying your hand upon a creature, you channel negative energy that deals 1d8 points of damage +1 point per caster level (maximum +5). 
+DetectEvil;Detect Evil;1;0;Cleric;You can sense the presence of evil. The amount of information revealed depends on how long you study a particular area or subject. 
+DetectMagic;Detect Magic;1;0;Cleric;You detect magical auras. The amount of information revealed depends on how long you study a particular area or subject. 
+Light;Light;1;0;Cleric;This spell causes an object to glow like a torch, shedding bright light in a 20-foot radius (and dim light for an additional 20 feet) from the point you touch. The effect is immobile, but it can be cast on a movable object. Light taken into an area of magical darkness does not function. 
+Darkness;Darkness;1;1;Cleric;This spell causes an object to radiate shadowy illumination out to a 20-foot radius. All creatures in the area gain concealment (20% miss chance). Even creatures that can normally see in such conditions (such as with darkvision or low-light vision) have the miss chance in an area shrouded in magical darkness. 
+ProtectionFromEvil;Protection from Evil;1;0;Cleric;This spell wards a creature from attacks by evil creatures, from mental control, and from summoned creatures. It creates a magical barrier around the subject at a distance of 1 foot. The barrier moves with the subject and has three major effects. 
+PurifyFoodAndWater;Purify Food and Water;1;0;Cleric;This spell makes spoiled, rotten, poisonous, or otherwise contaminated food and water pure and suitable for eating and drinking. This spell does not prevent subsequent natural decay or spoilage. Unholy water and similar food and drink of significance is spoiled by purify food and drink, but the spell has no effect on creatures of any type nor upon magic potions. 
+RemoveFear;Remove Fear;1;0;Cleric;You instill courage in the subject, granting it a +4 morale bonus against fear effects for 10 minutes. If the subject is under the influence of a fear effect when receiving the spell, that effect is suppressed for the duration of the spell. 
+CauseFear;Cause Fear;1;1;Cleric;The affected creature becomes frightened. If the subject succeeds on a Will save, it is shaken for 1 round. Creatures with 6 or more Hit Dice are immune to this effect. 
+Resistance;Resistance;1;0;Cleric;You imbue the subject with magical energy that protects it from harm, granting it a +1 resistance bonus on saves. 
+Bless;Bless;2;0;Cleric;
+Blight;Blight;2;1;Cleric;
+FindTraps;FindTraps;2;0;Cleric;
+HoldPerson;Hold Person;2;0;Cleric;
+KnowAlignment;Know Alignment;2;0;Cleric;
+ResistFire;Resist Fire;2;0;Cleric;
+Silence15ftRadius;Silence 15' Radius;2;0;Cleric;
+SnakeCharm;Snake Charm;2;0;Cleric;
+SpeakWithAnimals;Speak with Animals;2;0;Cleric;
+ContinualLight;Continual Light;3;0;Cleric;
+ContinualDarkness;Continual Darkness;3;1;Cleric;
+CureDisease;Cure Disease;3;0;Cleric;
+CauseDisease;Cause Disease;3;1;Cleric;
+GrowthOfAnimal;Growth of Animal;3;0;Cleric;
+LocateObject;Locate Object;3;0;Cleric;
+RemoveCurse;Remove Curse;3;0;Cleric;
+Curse;Curse;3;1;Cleric;
+Striking;Striking;3;0;Cleric; 
+CreateWater;Create Water;4;0;Cleric;
+CureSeriousWounds;Cure Serious Wounds;4;0;Cleric;
+CauseSeriousWounds;Cause Serious Wounds;4;1;Cleric;
+NeutralizePoison;Neutralize Poison;4;0;Cleric;
+ProtectionFromEvil10Radius;Protection from Evil 10' Radius;4;0;Cleric;
+SpeakWithPlants;Speak with Plants;4;0;Cleric;
+SticksToSnakes;Sticks to Snakes;4;0;Cleric;
+Commune;Commune;5;0;Cleric;
+CreateFood;Create Food;5;0;Cleric;
+DispelEvil;Dispel Evil;5;0;Cleric;
+InsectPlague;Insect Plague;5;0;Cleric;
+Quest;Quest;5;0;Cleric;
+RemoveQuest;RemoveQuest;5;1;Cleric;
+RaiseDead;Raise Dead;5;0;Cleric;
+FingerOfDeath;Finger of Death;5;1;Cleric;

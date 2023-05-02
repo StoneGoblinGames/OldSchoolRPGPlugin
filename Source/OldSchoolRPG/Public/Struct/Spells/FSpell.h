@@ -19,5 +19,8 @@ struct FSpell : public FTableRowBase
 	bool IsReversed = false;
 
 	UPROPERTY(EditAnywhere, BlueprintReadWrite)
-	TArray<TEnumAsByte<EClasses::Class>> Classes;	
+	TArray<TEnumAsByte<EClasses::Class>> Classes;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite)
+	FText Description;	
 };
