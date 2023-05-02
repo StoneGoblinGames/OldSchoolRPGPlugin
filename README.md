@@ -6,6 +6,7 @@ Plugin specifically tailored for Old School DnD (OSDD) games. This plugin provid
 
    - Character creation
    - Equipment
+   - Spells
 
 ## To-Do
     
@@ -16,4 +17,3 @@ Plugin specifically tailored for Old School DnD (OSDD) games. This plugin provid
     - Specialists
     - Strongholds
     - Structures
-    - WIP: Spells
